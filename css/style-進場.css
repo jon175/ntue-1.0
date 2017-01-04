@@ -1,0 +1,61 @@
+html {
+     height: 100%;
+ }
+
+ body {
+     background-image: url(background.jpg);
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-position: center;
+     background-size: cover;
+ }
+
+.logo{
+
+  position:absolute;
+  margin-left:480px;
+  margin-top: 150px;
+  font-size: 200px;
+  font-family: 'Merriweather', serif;
+}
+p{
+
+ color: #ffffff;
+  margin:auto;
+  text-align:center;
+}
+a{
+
+   text-decoration:none;
+   border-width:5px;
+   border-style:double;
+   margin:auto;
+   text-align:center;
+   border-color:#ffffff;
+   color: #ffffff;
+   padding:20px;
+   width:150px;
+   position:absolute;
+   border-radius: 5px;
+   z-index:1;
+   font-size: 28px;
+   font-family:"華康行書體";
+}
+
+a:hover{
+
+  border-color:#000000;
+  color: #000000;
+  background-color: #efefef;
+}
+
+.button1{
+   margin-left:550px;
+   margin-top:450px;
+   float: left;
+}
+.button2{
+   margin-left:250px;
+   margin-top:450px;
+   float: left;
+}
