@@ -1,3 +1,7 @@
+/* --------------------------------------
+   公設
+   -------------------------------------- */
+
 body{
 width:100%;
 margin:0;
@@ -13,6 +17,10 @@ padding:0;
   position: relative;
 }
 
+.container-fluid{
+padding: 0px;
+}
+
 li{
   list-style: none;
 }
@@ -24,22 +32,40 @@ padding-left: 5px;
 padding-right: 5px;
 }
 
+.k:hover{
+  text-decoration: none;
+color: #fff000;
+
+}
+
 .row{
-  width: 100%;
-  margin:20px;
-  margin-top: 80px;
+
+  margin: 0px;
 }
 
-.row img{
 
+/* --------------------------------------
+   row-1
+   -------------------------------------- */
 
-  margin-left:80px;
-}
+   .row-1{
+     width: 100%;
+   margin-top: 80px;
 
-.swe{
+   }
 
-background-color: #efefef;
-}
+   .row-1 img{
+   margin-bottom: 20px;
+     margin-left:80px;
+   }
+
+   .swe{
+   background-color: #efefef;
+   }
+
+   /* --------------------------------------
+      row1
+      -------------------------------------- */
 
 .row1{
   margin: auto;
@@ -59,20 +85,13 @@ padding-bottom: 2px;
 }
 
 
-
-.k:hover{
-  text-decoration: none;
-color: #fff000;
-
-}
-
 /* --------------------------------------
-   Carousel
+   Carousel row2
    -------------------------------------- */
 
 #myCarousel {
      font-size: 1rem;
-     margin: 0px;
+     width: 100%;
    }
 
    .carousel-caption {
@@ -115,21 +134,15 @@ color: #fff000;
   background-color: #7f7f7f;
   padding-top: 12px;
   padding-bottom: 2px;
-    width: 100%;
+  width: 100%;
   width: 1000px;
 
 }
 .row3 a{
   font-family: "華康行書體";
   color: #ffffff;
-font-size: 26px;
+  font-size: 26px;
   text-decoration: none;
-
-}
-
-.k:hover{
-
-color: #fff000;
 
 }
 
@@ -138,17 +151,17 @@ color: #fff000;
    -------------------------------------- */
 
 .row4{
-  padding-top: 20px;
+  padding-top: 40px;
 text-decoration: none;
-margin-top: 10px;
+margin-top: 30px;
 background-color: #464646;
 padding-bottom: 20px;
 /*width: 100%;*/
+padding-bottom: 50px;
+
 }
 
-.mn1{
-  display: none;
-}
+
 
 .row4 a{
 color: #ffffff;
@@ -157,11 +170,20 @@ font-size: 14px;　
 }
 
 .row4 p{
-  margin-top: 20px;
+  position: absolute;
 margin-left: 270px;
 color: #ffffff;
 font-size: 42px;
 font-family: "華康行書體";
+}
+
+.qq{
+
+  margin-left: 200px;
+}
+
+.mn1{
+  display: none;
 }
 
 .line1{
@@ -173,8 +195,10 @@ width:1000px;
 
 }
 .swi{
-
-  margin-bottom: -10px;
+  margin-left: 260px;
+  width: 1000px;
+  text-align: center;
+  border-radius: 3px;
 }
 .swi a{
 font-family: "華康行書體";
@@ -182,15 +206,8 @@ font-size: 24px;
 text-decoration: none;
 }
 
-.swi a:hover{
-
-color: #fff000;
-
-}
-
 .news1{
  background-color: #464646;
- padding-bottom: 40px;
  font-family: "微軟正黑體";
  margin-top: 20px;
 
@@ -201,30 +218,33 @@ color: #fff000;
 }
 .news2{
   margin-top: 20px;
+  padding-bottom: 60px;
  font-family: "微軟正黑體";
  background-color: #464646;
- padding-bottom: 40px;
 }
 .news2 a {
 margin-right: 1px;
 text-decoration: none;
 }
-.button :hover{
-  color: #fff000;
-  border: solid 2px #fff000;
-  text-decoration: none;
-}
+
 .button a{
+  position: absolute;
   font-family: "微軟正黑體";
   padding: 7px;
   padding-left: 14px;
   padding-right: 14px;
-  margin-top: 5px;
   border-radius: 3px;
   margin-left: 1160px;
+  margin-top: -60px;
   font-size: 14px;
   color: #ffffff;
   border: solid 2px #ffffff;
+  text-decoration: none;
+}
+
+.button :hover{
+  color: #fff000;
+  border: solid 2px #fff000;
   text-decoration: none;
 }
 
@@ -236,7 +256,7 @@ text-decoration: none;
    row5
    -------------------------------------- */
 .row5{
-
+  margin-top: 30px;
   height: 480px;
   background-image: url("banner4-1.png");
   background-color: #efefef;
@@ -347,42 +367,38 @@ text-decoration: none;
 
 
 
-/* --------------------------------------
-   row6
-   -------------------------------------- */
+  /* --------------------------------------
+     row6
+     -------------------------------------- */
 
-.row6{
-  background-color: #7f7f7f;
-padding-bottom: 10px;
-padding-top: 20px;
-margin-top: 30px;
-width: 100%;
-
-}
-
-.row6 img{
-background-color: #7f7f7f;
-margin-left: 260px;
-  width: 80px;
-  height: 80px;
-
-}
-
-
-.fp{
-  background-color: #7f7f7f;
-    padding-bottom: 30px;
-}
-
-.fl{
-    color: #ffffff;
+  .row6{
     background-color: #7f7f7f;
-    padding-bottom: 50px;
-}
-.fi a{
-margin-left: 20px;
+  padding-bottom: 10px;
+  padding-top: 20px;
+  margin-top: 30px;
+  width: 100%;
 
-}
+  }
+
+  .row6 img{
+  background-color: #7f7f7f;
+  margin-left: 260px;
+    width: 120px;
+    height: 120px;
+
+  }
+
+  .fp{
+
+  }
+
+  .fl{
+      color: #ffffff;
+      font-size: 18px;
+      margin-top: 20px;
+  }
+
+
 
 /* --------------------------------------
   RWD
